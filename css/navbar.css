@@ -1,0 +1,45 @@
+
+  .navbar{
+    width:1200px;
+    margin:auto;
+  }
+  .logo{
+    width: 200px;
+    height:200px;
+    cursor:pointer;
+    margin-left:50px;
+    position: relative;
+  }
+  .menu{
+    float:right;
+    padding-left: 120px;
+  
+  }
+  ul{
+    margin-top:-150px;
+    margin-right: 50px;
+    float:right;
+    display:flex;
+  }
+  ul li{
+    list-style:none;
+    margin-left:62px;
+    font-size:14px;
+  }
+  ul li a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-family:arial;
+    font-weight:bold;
+    transition:0.5s ease-in-out;
+    background:linear-gradient(rgb(91, 210, 240), hwb(209 21% 7%));
+    padding-left:20px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom:10px;
+    border-radius:15px;
+    
+  }
+  ul li a:hover{
+    color:#1c03fd;
+  }
